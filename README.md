@@ -31,3 +31,6 @@ html,css, javascript interview questions
 
 10. How do you create a hyperlink in HTML?
     - Hyperlinks in HTML are created using the `<a>` element with the `href` attribute specifying the URL of the destination. For example: `<a href="https://example.com">Link Text</a>`.
+   
+
+   (will be updated soon.....)
