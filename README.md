@@ -11,7 +11,7 @@ html,css, javascript interview questions
 3. Explain the difference between inline, block, and inline-block elements.
    - Inline elements flow in the content and do not start on a new line. Block elements start on a new line and occupy the full width available. Inline-block elements are similar to inline elements but can have set widths and heights like block elements.
 
-   What is the purpose of a doctype in HTML?
+ 4-  What is the purpose of a doctype in HTML?
    - A doctype declaration specifies the document type and version of HTML used in a web page. It ensures that the browser renders the page in standards mode.
 
 5. What is the box model in CSS?
