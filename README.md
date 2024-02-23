@@ -133,6 +133,37 @@ html,css, javascript interview questions
 
 40. How do you handle cross-browser compatibility issues?
    - Cross-browser compatibility issues can be handled by testing websites in multiple browsers and versions, using CSS prefixes and vendor-specific extensions, avoiding browser-specific features, and using polyfills or JavaScript libraries to fill in functionality gaps.
+
+41. Describe the differences between `GET` and `POST` requests.
+   - `GET` requests are used to retrieve data from a server, typically by appending parameters to a URL. They are suitable for requests that do not modify data, such as fetching a webpage or an image. Example: `GET /data?id=123`.
+   - `POST` requests are used to submit data to a server to create or update a resource. The data is sent in the request body and is not visible in the URL. They are suitable for requests that modify data, such as submitting a form. Example: `POST /submitForm`.
+
+42. What are vendor prefixes in CSS and why are they used?
+   - Vendor prefixes are prefixes added to CSS properties to specify that the property is experimental or requires vendor-specific implementations. They are used to target specific browser engines and ensure compatibility during experimental stages. Example: `-webkit-border-radius`.
+
+43. Describe the benefits of using SVG (Scalable Vector Graphics) over other image formats.
+   - SVGs are resolution-independent and scalable without losing quality, making them ideal for responsive web design. They are also lightweight in file size compared to raster image formats like JPEG or PNG. Example: `<svg width="100" height="100">...</svg>`.
+
+44. What is a CDN (Content Delivery Network) and how does it improve website performance?
+   - A CDN is a network of servers distributed geographically to deliver web content more efficiently to users. It improves website performance by reducing latency, offloading server bandwidth, and caching content closer to users. Example: Using Cloudflare CDN for serving static assets like images and scripts.
+
+45. How do you implement a responsive image solution?
+   - Implementing responsive images involves using CSS media queries and HTML attributes like `srcset` and `sizes` to serve appropriately sized images based on the user's device and viewport size. Example: `<img src="small.jpg" srcset="large.jpg 1024w, medium.jpg 640w" sizes="(max-width: 600px) 100vw, 50vw">`.
+
+46. Explain the purpose of the `aria-*` attributes in HTML.
+   - The `aria-*` attributes in HTML are used to enhance the accessibility of web content for users with disabilities. They provide semantic information about elements, roles, and states to assistive technologies like screen readers. Example: `<button aria-label="Add to Cart">`.
+
+47. What are the advantages and disadvantages of CSS preprocessors like Sass and Less?
+   - Advantages include features like variables, mixins, and nesting, which improve code organization and maintainability. Disadvantages may include a learning curve, tooling setup, and potential performance overhead. Example: Using Sass to define reusable styles with variables and mixins.
+
+48. Describe the difference between progressive enhancement and graceful degradation.
+   - Progressive enhancement starts with a basic version of a webpage and adds enhancements for more capable browsers or devices. Graceful degradation starts with a fully-featured webpage and removes features for less capable browsers or devices. Example: Building a webpage with HTML for content, then enhancing it with CSS for styling, and JavaScript for interactivity.
+
+49. How do you optimize images for the web?
+   - Image optimization techniques include resizing images to appropriate dimensions, compressing them without significant loss of quality, choosing the right file format (JPEG, PNG, or SVG), and leveraging modern image formats like WebP. Example: Using tools like ImageOptim or TinyPNG to compress images.
+
+50. What is the purpose of the `async` and `defer` attributes in a `<script>` tag?
+   - The `async` attribute allows the browser to download the script asynchronously while parsing the HTML, executing it as soon as it's downloaded. The `defer` attribute also allows asynchronous downloading but defers execution until the HTML parsing is complete. Example: `<script src="script.js" async></script>`.
    
 
    (will be updated soon.....)
