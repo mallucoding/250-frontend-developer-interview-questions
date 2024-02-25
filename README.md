@@ -207,6 +207,36 @@ html,css, javascript interview questions
 
 60. Concept of critical rendering path and its impact on website performance:
    The critical rendering path refers to the sequence of steps browsers must take to convert HTML, CSS, and JavaScript into pixels on the screen. It includes processes like parsing and rendering HTML, loading external resources, and executing JavaScript. Optimizing the critical rendering path is crucial for improving website performance, as inefficiencies in any step can lead to slower page load times and degraded user experience. Techniques such as minimizing render-blocking resources, optimizing CSS and JavaScript, and leveraging browser caching can help streamline the critical rendering path and enhance website performance.
+
+61. What is the purpose of the `rel="noopener"` attribute in `<a>` tags?  
+   The purpose of the `rel="noopener"` attribute in `<a>` tags is to enhance security by preventing the newly opened page from being able to access the `window.opener` property of the referring page.
+
+62. Describe the benefits of using a task runner like Grunt or Gulp in front-end development.  
+   Using a task runner like Grunt or Gulp in front-end development offers several benefits. They automate repetitive tasks such as minification, compilation, unit testing, and more, saving developers time and effort.
+
+63. How do you implement internationalization (i18n) in a web application?  
+   Implementing internationalization (i18n) in a web application involves designing and developing the application in a way that allows for easy translation and adaptation to different languages and cultures.
+
+64. Explain the concept of tree shaking in JavaScript.  
+   Tree shaking in JavaScript refers to the process of eliminating dead code or unused modules from the final bundle during the build process, thereby reducing the size of the bundle and improving performance.
+
+65. What is the purpose of the `prefetch` and `preload` attributes in HTML?  
+   The `prefetch` and `preload` attributes in HTML are used to improve page load times by fetching resources in advance. `prefetch` hints to the browser to fetch resources that might be needed for future navigation, while `preload` instructs the browser to fetch critical resources needed for the current page.
+
+66. Describe the advantages of using a CSS-in-JS approach.  
+   Using a CSS-in-JS approach offers advantages such as scoped styles, dynamic styling based on component state, easier maintenance with encapsulated styles, and improved performance through reduced file requests.
+
+67. What are the benefits of using a static site generator?  
+   Static site generators provide benefits such as improved performance due to pre-rendered pages, simplified deployment processes, better security by reducing attack vectors, and easier version control and collaboration with developers.
+
+68. How do you optimize a website for mobile devices?  
+   Optimizing a website for mobile devices involves techniques such as using responsive design, optimizing images and media, minimizing HTTP requests, leveraging browser caching, and ensuring fast loading times.
+
+69. Explain the purpose of the `Content-Security-Policy` header and how it improves website security.  
+   The `Content-Security-Policy` header is used to mitigate various types of attacks such as XSS by allowing website administrators to control which resources the browser is allowed to load for a specific web page. It improves website security by reducing the risk of malicious code execution.
+
+70. Describe the benefits of using HTTP/2 over HTTP/1.1 in web development.  
+   HTTP/2 offers several benefits over HTTP/1.1 in web development, including multiplexing, header compression, server push, and improved efficiency in handling multiple requests, resulting in faster page loading times and better performance overall.
    
 
    (will be updated soon.....)
