@@ -237,6 +237,66 @@ html,css, javascript interview questions
 
 70. Describe the benefits of using HTTP/2 over HTTP/1.1 in web development.  
    HTTP/2 offers several benefits over HTTP/1.1 in web development, including multiplexing, header compression, server push, and improved efficiency in handling multiple requests, resulting in faster page loading times and better performance overall.
+
+72. What is the purpose of the `picture` element in HTML5?
+   The `picture` element in HTML5 is used for responsive images. It allows developers to specify multiple image sources and sizes based on different device characteristics, such as screen size or resolution, ensuring the most appropriate image is displayed for each context.
+
+73. Describe the concept of code splitting and its benefits in web development.
+   Code splitting involves breaking down a web application's codebase into smaller chunks that can be loaded asynchronously as needed. This approach improves initial page load times by reducing the amount of JavaScript that needs to be downloaded and parsed upfront, resulting in faster rendering and improved user experience, particularly on slower connections or devices.
+
+74. How do you handle state management in a large-scale web application?
+   In a large-scale web application, state management is often handled using libraries or frameworks such as Redux, Vuex (for Vue.js), or context API (for React). These tools provide centralized stores for managing application state, enabling predictable state changes, efficient data flow, and easier debugging and testing, particularly in complex or deeply nested component hierarchies.
+
+75. Explain the concept of memoization in JavaScript.
+   Memoization is a technique used to optimize function performance by caching the results of expensive function calls and returning the cached result when the same inputs occur again. This avoids redundant computations and improves overall performance, particularly in scenarios where the same function is called with identical arguments multiple times.
+
+76. What are the benefits of using a virtual DOM in frameworks like React?
+   The virtual DOM is a lightweight, in-memory representation of the actual DOM. In frameworks like React, changes to the virtual DOM are efficiently batched and then applied to the real DOM in a single update, reducing the number of actual DOM manipulations and improving rendering performance. Additionally, the virtual DOM enables a declarative programming model, simplifying the process of building and updating user interfaces, and facilitating server-side rendering for improved SEO and initial load performance.
+
+77. What are some best practices for structuring CSS for large-scale projects?
+   Some best practices for structuring CSS in large-scale projects include using modular and component-based approaches, organizing stylesheets based on features or components, using naming conventions like BEM (Block Element Modifier) or SMACSS (Scalable and Modular Architecture for CSS), leveraging preprocessors or CSS-in-JS solutions for better organization and reusability, and optimizing CSS delivery through minification and concatenation.
+
+78. Describe the benefits of using a CSS methodology like BEM or SMACSS.
+   CSS methodologies like BEM (Block Element Modifier) or SMACSS (Scalable and Modular Architecture for CSS) provide guidelines and best practices for structuring and organizing CSS code in a modular and maintainable way. Benefits include improved code reusability, easier collaboration among developers, reduced specificity conflicts, better scalability for large projects, and enhanced code maintainability and readability.
+
+79. How do you approach performance optimization in a React application?
+   Performance optimization in a React application involves techniques such as code splitting to reduce initial bundle size, lazy loading of components and routes, implementing shouldComponentUpdate or PureComponent for optimizing rendering performance, using memoization or memo higher-order component (HOC) for expensive calculations, profiling and identifying performance bottlenecks using browser dev tools or React profiling tools, and optimizing network requests and data fetching strategies.
+
+80. Explain the concept of server-side rendering (SSR) in React and its benefits.
+   Server-side rendering (SSR) in React involves rendering React components on the server and sending the resulting HTML to the client, rather than relying on client-side JavaScript to generate the initial page content. Benefits include improved SEO as search engines can crawl and index server-rendered content, faster time to content for users with slow network connections or devices, and better perceived performance due to quicker initial render.
+
+81. What are some techniques for optimizing web fonts?
+   Techniques for optimizing web fonts include subsetted font loading to reduce file size by including only the characters needed for a specific web page, using font-display CSS property to control font rendering behavior and avoid FOIT (Flash of Invisible Text) or FOUT (Flash of Unstyled Text), leveraging font loading APIs like Font Face Observer for better control over font loading and rendering, and optimizing font formats and compression for faster download and rendering times.
+
+82. Describe the differences between serverless and traditional server-based architectures.
+   Serverless architecture involves deploying individual functions or services to the cloud, which are executed in response to events triggered by user requests. Traditional server-based architectures involve managing and maintaining servers to handle incoming requests and execute application logic. Serverless architectures offer benefits such as scalability, reduced operational overhead, and pay-per-use pricing, while traditional server-based architectures provide more control over infrastructure but require ongoing maintenance and provisioning.
+
+83. How do you ensure a web application is secure against common vulnerabilities?
+   Ensuring a web application's security involves implementing various measures such as input validation, output encoding, proper authentication and authorization mechanisms, using HTTPS, employing security headers like Content Security Policy (CSP), regular security audits and penetration testing, keeping software dependencies up-to-date, and educating developers about secure coding practices and common vulnerabilities like XSS, CSRF, SQL injection, and more.
+
+84. What are some strategies for optimizing time to first byte (TTFB)?
+   Strategies for optimizing time to first byte (TTFB) include reducing server response times by optimizing server-side code and database queries, leveraging caching mechanisms such as content delivery networks (CDNs), implementing server-side rendering (SSR) or static site generation, using HTTP/2 for multiplexing and header compression, minimizing HTTP requests, and optimizing network and infrastructure configurations.
+
+85. Describe the benefits of using a micro-frontends architecture.
+   Micro-frontends architecture involves breaking down a web application into smaller, independently deployable frontend modules, each managed by separate teams. Benefits include improved scalability, flexibility, and maintainability, enabling teams to work independently on different parts of the application, easier adoption of new technologies, and better isolation of failures, leading to faster development cycles and enhanced overall productivity.
+
+86. How do you ensure a web application is accessible to users with disabilities?
+   Ensuring web accessibility involves following accessibility standards such as WCAG (Web Content Accessibility Guidelines), designing with keyboard navigation and screen reader compatibility in mind, providing alternative text for images, ensuring proper semantic HTML structure, implementing ARIA (Accessible Rich Internet Applications) roles and attributes, conducting accessibility audits and user testing, and continuously improving accessibility through feedback and updates.
+
+87. Explain the principles of responsive typography.
+   Responsive typography involves designing text to adapt to different screen sizes and resolutions. Principles include using relative units like ems or percentages for font sizes, employing fluid typography techniques such as viewport units (vw, vh), setting appropriate line heights and letter spacing, using media queries to adjust typography styles based on device characteristics, and ensuring readability and legibility across devices and viewports.
+
+88. What are some techniques for improving perceived performance in a web application?
+   Techniques for improving perceived performance include lazy loading resources such as images and scripts, prioritizing critical above-the-fold content for fast loading, using skeleton screens or placeholders to indicate content loading progress, optimizing perceived responsiveness with smooth animations and transitions, implementing predictive prefetching based on user interactions, and providing feedback during long-running processes.
+
+89. Describe the benefits of using GraphQL over traditional REST APIs.
+   Benefits of GraphQL include reduced over-fetching and under-fetching of data by allowing clients to specify exactly what data they need, enabling clients to aggregate data from multiple sources with a single request, providing a strongly-typed schema for self-documentation and type safety, facilitating rapid development and iteration with introspection capabilities, and supporting real-time updates through subscriptions.
+
+90. How do you implement authentication and authorization in a single-page application?
+   Implementing authentication and authorization in a single-page application involves using techniques such as token-based authentication (e.g., JWT), storing tokens securely in client-side storage (e.g., localStorage, sessionStorage, or HTTP-only cookies), verifying tokens on the server side, protecting routes based on user roles or permissions, implementing OAuth/OIDC for third-party authentication, and handling session management and token expiration.
+
+91. What are the advantages of using server-side rendering (SSR) in Vue.js?
+   Advantages of using server-side rendering (SSR) in Vue.js include improved initial load performance and perceived speed by rendering the initial HTML content on the server and sending it to the client, better search engine optimization (SEO) as search engines can crawl and index server-rendered pages, enhanced accessibility and user experience for users with slow network connections or disabled JavaScript, and seamless integration with existing server-side technologies and frameworks.
    
 
    (will be updated soon.....)
