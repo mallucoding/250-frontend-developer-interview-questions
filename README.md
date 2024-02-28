@@ -297,6 +297,36 @@ html,css, javascript interview questions
 
 91. What are the advantages of using server-side rendering (SSR) in Vue.js?
    Advantages of using server-side rendering (SSR) in Vue.js include improved initial load performance and perceived speed by rendering the initial HTML content on the server and sending it to the client, better search engine optimization (SEO) as search engines can crawl and index server-rendered pages, enhanced accessibility and user experience for users with slow network connections or disabled JavaScript, and seamless integration with existing server-side technologies and frameworks.
+
+91. Describe the principles of object-oriented CSS (OOCSS).
+   Object-oriented CSS (OOCSS) is a methodology for writing scalable and maintainable CSS code by separating structure and skin. It promotes the creation of reusable CSS classes (objects) that define visual properties (like width, height, margin) and separate classes (skins) that define appearance (like color, background). This separation allows for greater flexibility, consistency, and efficiency in styling web components.
+
+92. How do you handle memory leaks in JavaScript applications?
+   Memory leaks in JavaScript applications can be handled by identifying and fixing common causes such as circular references, event listeners not being removed, excessive DOM element retention, and improper closure usage. Tools like browser developer tools and memory profilers can help identify memory leaks, and techniques like manual memory management, object pooling, and garbage collection optimization can mitigate their impact.
+
+93. Explain the concept of code splitting and lazy loading in Angular.
+   Code splitting and lazy loading in Angular involve breaking down the application into smaller bundles and loading them on-demand. Code splitting divides the application into smaller chunks that are loaded asynchronously when needed, reducing initial load times. Lazy loading allows for loading specific modules or components only when requested by the user, further optimizing performance by minimizing the amount of code initially loaded.
+
+94. What are some techniques for reducing render-blocking resources?
+   Techniques for reducing render-blocking resources include asynchronous loading of JavaScript and CSS files, using defer or async attributes for non-critical scripts, optimizing and minifying CSS and JavaScript files, inlining critical CSS directly into the HTML document, leveraging browser caching and CDNs for faster resource retrieval, and utilizing HTTP/2 for efficient multiplexing of resources.
+
+95. Describe the benefits of using WebAssembly in web development.
+   WebAssembly (Wasm) allows developers to run high-performance, low-level code in web browsers, enabling applications to achieve near-native performance. Benefits include faster execution times for compute-intensive tasks, support for multiple programming languages, improved security through sandboxed execution, and broader compatibility across different browsers and platforms.
+
+96. How do you optimize web performance for users with slow internet connections?
+   Optimizing web performance for users with slow internet connections involves techniques such as minimizing the use of large images and videos, leveraging image compression and lazy loading for deferred loading of non-essential content, reducing the number of HTTP requests through bundling and minification, utilizing content delivery networks (CDNs) for caching and faster content delivery, and implementing progressive enhancement strategies for graceful degradation of features.
+
+97. Explain the role of design patterns in front-end development.
+   Design patterns in front-end development provide reusable solutions to common problems, promoting code maintainability, scalability, and readability. Examples include MVC (Model-View-Controller) for separating concerns, Observer for handling event-driven updates, Factory for creating objects, and Singleton for ensuring a single instance of a class. By following established design patterns, developers can streamline development, encourage best practices, and improve code quality.
+
+98. What are some strategies for reducing time to interactive (TTI) in a web application?
+   Strategies for reducing time to interactive (TTI) include optimizing critical rendering path for faster initial rendering, prioritizing the loading of critical resources such as CSS and JavaScript, deferring non-essential JavaScript execution using async or defer attributes, lazy loading non-critical resources, optimizing JavaScript performance through code splitting and tree shaking, and minimizing render-blocking resources to ensure faster interaction responsiveness.
+
+99. Describe the differences between server-side rendering (SSR) and static site generation (SSG).
+   Server-side rendering (SSR) involves dynamically generating HTML on the server in response to each request, providing faster initial render times and improved SEO. Static site generation (SSG), on the other hand, pre-builds HTML files during the build process, resulting in faster content delivery and reduced server load. SSR is suitable for dynamic content or personalized experiences, while SSG is ideal for content-heavy or largely static websites.
+
+100. How do you handle data caching in a web application?
+   Data caching in a web application can be handled using techniques such as browser caching, server-side caching (e.g., using Redis or Memcached), client-side caching with mechanisms like localStorage or IndexedDB, and CDN caching for static assets. Strategies include setting appropriate cache-control headers, implementing cache invalidation mechanisms, using cache-busting techniques for updated resources, and optimizing cache storage and expiration policies for efficient data retrieval and storage.
    
 
    (will be updated soon.....)
