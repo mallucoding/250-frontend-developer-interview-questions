@@ -327,6 +327,65 @@ html,css, javascript interview questions
 
 100. How do you handle data caching in a web application?
    Data caching in a web application can be handled using techniques such as browser caching, server-side caching (e.g., using Redis or Memcached), client-side caching with mechanisms like localStorage or IndexedDB, and CDN caching for static assets. Strategies include setting appropriate cache-control headers, implementing cache invalidation mechanisms, using cache-busting techniques for updated resources, and optimizing cache storage and expiration policies for efficient data retrieval and storage.
+
+
+101. How do you handle errors in asynchronous JavaScript?
+   - Errors in asynchronous JavaScript can be handled using `try...catch` blocks, `Promise` error handling with `.catch()`, and `async/await` syntax with `try...catch`. Additionally, you can use global error event listeners like `window.onerror` to catch unhandled errors.
+
+102. Describe the purpose of the `viewport` meta tag in responsive design:
+   - The `viewport` meta tag in responsive design is used to control how the webpage is displayed on different devices and screen sizes. It allows developers to set parameters such as initial scale, width, and device pixel ratio, ensuring that the webpage renders properly and is optimized for mobile and desktop viewing.
+
+103. What are Angular directives and how do you use them?
+   - Angular directives are markers on DOM elements that tell AngularJS's HTML compiler (`$compile`) to attach a specified behavior to that DOM element or transform the DOM element and its children. Directives can be used to create custom HTML tags, attributes, classes, and comments, and they allow you to extend the functionality of HTML. Directives can be used in templates or directly in HTML markup.
+
+104. Explain the concept of prototypal inheritance in JavaScript:
+   - Prototypal inheritance in JavaScript is a mechanism where objects can inherit properties and methods from other objects. Each object has a prototype object, and when a property or method is accessed on an object, JavaScript first checks if the object itself contains that property or method. If it doesn't, it looks up the prototype chain until it finds the property or method. This allows for code reuse and the creation of hierarchies of objects.
+
+105. How do you ensure accessibility in a web application?
+   - Accessibility in a web application can be ensured by following Web Content Accessibility Guidelines (WCAG) standards, which include practices such as providing alternative text for images, using semantic HTML elements properly, ensuring keyboard accessibility, maintaining sufficient color contrast, providing captions and transcripts for multimedia content, and testing with assistive technologies.
+
+106. Describe the difference between `null` and `undefined` in JavaScript:
+   - `null` represents the intentional absence of any value and is a primitive value. It can be assigned to a variable to indicate that it has no value.
+   - `undefined` is a primitive value automatically assigned to variables that have been declared but not initialized, or to object properties that do not exist. It indicates the absence of a value due to the lack of initialization.
+
+107. How do you optimize images for the web?
+   - Images can be optimized for the web by resizing them to the appropriate dimensions, compressing them using lossy or lossless compression techniques, choosing the appropriate file format (JPEG, PNG, GIF, SVG), optimizing the file size using tools like ImageOptim or TinyPNG, and using responsive images with `srcset` and `sizes` attributes.
+
+108. What are web accessibility standards and why are they important?
+   - Web accessibility standards, such as the Web Content Accessibility Guidelines (WCAG), are guidelines and best practices for making web content accessible to people with disabilities. They are important because they ensure that web content is usable and perceivable by everyone, regardless of disabilities, and they promote inclusivity and equal access to information and services on the web.
+
+109. How do you create a form with input validation in HTML5?
+   - In HTML5, input validation can be achieved using built-in form validation attributes like `required`, `min`, `max`, `pattern`, and `type`. Additionally, you can use JavaScript to implement custom validation logic by accessing form elements, listening for form events like `submit`, and validating input values against specific criteria. Custom validation can provide more control and flexibility over the validation process.
+
+111. Describe the purpose of the `<template>` element in HTML5:
+   - The `<template>` element in HTML5 is used to hold client-side content that should not be rendered when the page is loaded but can be cloned and inserted into the document by JavaScript. It allows you to define fragments of markup that can be reused without being rendered until needed.
+   - 
+112. How do you center an element horizontally and vertically in CSS?
+   - To center an element horizontally, you can set its `margin` to `auto` and define a width. To center an element vertically, you can use the flexbox layout model with `align-items: center;` and `justify-content: center;` on the parent container, or you can use the `position` property with `top: 50%;` and `transform: translateY(-50%);` on the element itself.
+     
+113. What is the difference between adaptive and responsive web design?
+   - Responsive web design adapts the layout of a website to fit different screen sizes by using flexible grids and media queries, ensuring that the design responds to changes in viewport size. Adaptive web design, on the other hand, involves creating multiple fixed layout sizes designed for specific devices or viewport widths, and the appropriate layout is chosen based on the device accessing the site.
+
+114. How do you handle cross-browser compatibility issues?
+   - Cross-browser compatibility issues can be addressed by following best practices for coding, testing websites on multiple browsers and devices, using CSS prefixes when necessary, leveraging feature detection and polyfills, and keeping up with updates and changes in browser standards.
+
+115. Explain the purpose of the `box-sizing` property in CSS:
+   - The `box-sizing` property in CSS controls how the total width and height of an element are calculated, including padding and borders. By default (`box-sizing: content-box;`), the width and height of an element only include the content, excluding padding and border. When set to `border-box`, the width and height include padding and border.
+
+116. What are some common techniques for ensuring cross-browser compatibility?
+   - Some common techniques for ensuring cross-browser compatibility include using feature detection instead of browser detection, testing websites on multiple browsers and devices, using CSS resets or normalization, avoiding browser-specific prefixes whenever possible, and staying informed about browser updates and standards.
+
+117. Describe the purpose of the `<aside>` element in HTML5:
+   - The `<aside>` element in HTML5 is used to define content that is tangentially related to the content around it, such as sidebars, pull quotes, or advertising. It is typically used for content that is not central to the main content of the page but provides additional context or supplementary information.
+
+118. How do you implement lazy loading of images in HTML?
+   - Lazy loading of images in HTML can be implemented using the `loading` attribute set to `"lazy"` on the `<img>` tag. This tells the browser to defer loading the image until it enters the viewport, improving page load performance and reducing bandwidth usage.
+
+119. What are some common accessibility issues and how do you address them?
+   - Common accessibility issues include lack of alternative text for images, improper use of headings and landmarks, insufficient color contrast, and inaccessible form controls. These can be addressed by providing descriptive alt attributes for images, using semantic HTML elements properly, ensuring sufficient color contrast, and using ARIA roles and attributes where necessary.
+
+120. Explain the concept of scope in JavaScript:
+   - Scope in JavaScript refers to the accessibility and visibility of variables and functions within a particular context in code. JavaScript has function scope, meaning variables declared inside a function are only accessible within that function (local scope), while variables declared outside of any function are accessible globally (global scope). Additionally, JavaScript has block scope introduced with ES6's `let` and `const`, which limits the visibility of variables to the block in which they are defined. Understanding scope is crucial for managing variable access and avoiding naming conflicts in JavaScript code.
    
 
    (will be updated soon.....)
