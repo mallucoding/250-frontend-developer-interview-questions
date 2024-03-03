@@ -386,6 +386,38 @@ html,css, javascript interview questions
 
 120. Explain the concept of scope in JavaScript:
    - Scope in JavaScript refers to the accessibility and visibility of variables and functions within a particular context in code. JavaScript has function scope, meaning variables declared inside a function are only accessible within that function (local scope), while variables declared outside of any function are accessible globally (global scope). Additionally, JavaScript has block scope introduced with ES6's `let` and `const`, which limits the visibility of variables to the block in which they are defined. Understanding scope is crucial for managing variable access and avoiding naming conflicts in JavaScript code.
+
+     Certainly! Here are the answers to the provided questions:
+
+121. How do you handle forms in React?
+   - In React, forms are typically handled by creating controlled components. This involves storing the form data in the component's state and updating it through event handlers. For form submission, you can either use the `onSubmit` event handler on the `<form>` element or handle it manually using JavaScript functions.
+
+122. How do you include external fonts in CSS?
+   - External fonts can be included in CSS using the `@font-face` rule, which allows you to specify a font family, source file (e.g., WOFF, WOFF2, TTF), and font weight. Once defined, you can use the font family name in your CSS rules to apply the font to specific elements.
+
+123. Describe the purpose of the `<img>` element in HTML:
+   - The `<img>` element in HTML is used to embed images into a web page. It allows you to specify the image source (`src` attribute), alternate text for accessibility (`alt` attribute), width, height, and other attributes like `srcset` for responsive images.
+
+124. What are components in React and how do you create one?
+   - Components in React are reusable, self-contained units of UI that can be composed together to build complex user interfaces. They can be created as functional components using JavaScript functions or as class components by extending the `React.Component` class. Components can have their own state, lifecycle methods, and props for data passing.
+
+125. Describe the purpose of the `viewport` meta tag in responsive design:
+   - The `viewport` meta tag in responsive design is used to control the viewport's behavior on mobile devices. It allows you to set the initial scale, width, and other properties to ensure that the webpage renders properly and is optimized for mobile viewing.
+
+126. How do you create a CSS animation?
+   - CSS animations can be created using keyframes and the `animation` property in CSS. Keyframes define the animation's progression at various points in time, and the `animation` property is used to specify the animation's duration, timing function, and other properties.
+
+127. Describe the difference between `map()` and `forEach()` methods in JavaScript:
+   - Both `map()` and `forEach()` are array iteration methods in JavaScript. The main difference is that `map()` returns a new array with the results of calling a provided function on every element in the array, while `forEach()` simply iterates over the array and executes a provided function for each element, without modifying the original array.
+
+128. What is lazy loading and how does it improve website performance?
+   - Lazy loading is a technique used to defer the loading of non-critical resources (such as images or scripts) until they are needed. This improves website performance by reducing initial page load time and bandwidth usage, as only essential content is loaded initially, and additional content is loaded asynchronously as the user interacts with the page.
+
+129. How do you pass data from a parent to a child component in React?
+   - Data can be passed from a parent to a child component in React by using props. Props are passed as attributes to the child component when it is declared in the parent's JSX, and they are accessible within the child component as properties of the `props` object.
+
+130. Describe the purpose of the `<label>` element in HTML forms:
+   - The `<label>` element in HTML forms is used to associate text with form elements, providing a label or description for the input field. It improves accessibility by allowing users to click on the label to focus on or activate the associated form control, and it also improves usability by providing context and guidance for form input.
    
 
    (will be updated soon.....)
