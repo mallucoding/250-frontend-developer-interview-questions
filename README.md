@@ -418,6 +418,42 @@ html,css, javascript interview questions
 
 130. Describe the purpose of the `<label>` element in HTML forms:
    - The `<label>` element in HTML forms is used to associate text with form elements, providing a label or description for the input field. It improves accessibility by allowing users to click on the label to focus on or activate the associated form control, and it also improves usability by providing context and guidance for form input.
-   
+
+131. What are some techniques for improving perceived performance in a web application?
+   - Some techniques for improving perceived performance in a web application include:
+     1. Lazy Loading: Load non-essential resources such as images, scripts, and content asynchronously as the user scrolls.
+     2. Minification and Compression: Minify CSS and JavaScript files to reduce their file size, and compress assets like images to improve load times.
+     3. Caching: Implement browser caching to store static resources locally, reducing the need for repeated downloads.
+     4. Progressive Rendering: Prioritize rendering critical above-the-fold content first, allowing users to see and interact with the page while the rest of the content loads.
+     5. Skeleton Screens: Display lightweight placeholders or skeleton screens while content is loading to provide visual feedback to users.
+     6. Optimized Fonts: Use web-safe fonts or preload fonts to prevent rendering delays caused by font loading.
+     7. Reduced Server Response Time: Optimize server-side processing and database queries to minimize server response time.
+
+132. Explain the concept of progressive enhancement.
+   - Progressive enhancement is a web design strategy that starts with a basic, universally accessible version of a web page or application and adds layers of functionality based on the capabilities of the user's device or browser. It ensures that all users, regardless of their device or browser capabilities, can access the core content and functionality of the website or application, with more advanced features available to users with modern browsers or devices.
+
+133. How do you handle errors in asynchronous JavaScript?
+   - Errors in asynchronous JavaScript can be handled using `try...catch` blocks around asynchronous code, `Promise` error handling with `.catch()`, or `async/await` syntax with `try...catch`. Additionally, you can use global error event listeners like `window.onerror` to catch unhandled errors.
+
+134. Describe the purpose of the `viewport` meta tag in responsive design.
+   - The `viewport` meta tag in responsive design is used to control how the webpage is displayed on different devices and screen sizes. It allows developers to set parameters such as initial scale, width, and device pixel ratio, ensuring that the webpage renders properly and is optimized for mobile and desktop viewing.
+
+135. What are Angular directives and how do you use them?
+   - Angular directives are markers on DOM elements that tell Angular's HTML compiler how to attach a specified behavior to that DOM element or transform the DOM element and its children. Directives can be used to create custom HTML tags, attributes, classes, and comments. They are used to extend the functionality of HTML and can be applied to elements in templates or directly in HTML markup.
+
+136. Explain the concept of prototypal inheritance in JavaScript.
+   - Prototypal inheritance in JavaScript is a mechanism where objects can inherit properties and methods from other objects through their prototype chain. Each object in JavaScript has a prototype object, and when a property or method is accessed on an object, JavaScript first checks if the object itself contains that property or method. If not, it looks up the prototype chain until it finds the property or method.
+
+137. How do you ensure accessibility in a web application?
+   - Accessibility in a web application can be ensured by following Web Content Accessibility Guidelines (WCAG) standards, which include practices such as providing alternative text for images, using semantic HTML elements properly, ensuring keyboard accessibility, maintaining sufficient color contrast, providing captions and transcripts for multimedia content, and testing with assistive technologies.
+
+138. Describe the difference between `null` and `undefined` in JavaScript.
+   - In JavaScript, `null` represents the intentional absence of any value and is a primitive value, while `undefined` is a primitive value automatically assigned to variables that have been declared but not initialized, or to object properties that do not exist. It indicates the absence of a value due to the lack of initialization.
+
+139. How do you optimize images for the web?
+   - Images can be optimized for the web by resizing them to the appropriate dimensions, compressing them using lossy or lossless compression techniques, choosing the appropriate file format (JPEG, PNG, GIF, SVG), optimizing the file size using tools like ImageOptim or TinyPNG, and using responsive images with `srcset` and `sizes` attributes.
+
+140. What are web accessibility standards and why are they important?
+   - Web accessibility standards, such as the Web Content Accessibility Guidelines (WCAG), are guidelines and best practices for making web content accessible to people with disabilities. They are important because they ensure that web content is usable and perceivable by everyone, regardless of disabilities, and they promote inclusivity and equal access to information and services on the web.
 
    (will be updated soon.....)
