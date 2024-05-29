@@ -504,4 +504,28 @@ Here are the answers to the provided questions:
 150. How do you implement lazy loading of images in HTML?
     - Lazy loading of images in HTML can be implemented using the `loading="lazy"` attribute on the `<img>` element. This attribute tells the browser to defer loading the image until it's near the viewport, reducing initial page load time and improving performance. Additionally, you can use JavaScript libraries or custom scripts to implement lazy loading functionality with more control and customization options.
 
+     Angular questions
+     **********************
+
+151. What is Angular?
+         Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations.
+152. What are the key features of Angular?
+         Some key features include two-way data binding, modular development, dependency injection, directives, and templates.
+153. What is data binding in Angular?
+         Data binding is the automatic synchronization of data between the model and view components. Angular supports both one-way and two-way data binding.
+154. What are components in Angular?
+         Components are the basic building blocks of an Angular application. They consist of a TypeScript class with a @Component decorator that defines the template, styles, and behavior of the component.
+155. Explain the difference between ngOnChanges and ngOnInit.
+           ngOnInit is a lifecycle hook that is called after Angular has initialized all data-bound properties of a directive. ngOnChanges is called when one or more data-bound input properties change.
+156. What is Angular CLI?
+         Angular CLI (Command Line Interface) is a command-line tool for initializing, developing, scaffolding, and maintaining Angular applications. It helps automate common development tasks and provides a               consistent project structure.
+157. What are directives in Angular?
+         Directives are markers on a DOM element that tell Angular to attach a specific behavior to that DOM element or even transform the DOM element and its children.
+158. What is NgModule?
+         NgModule is a class marked by the @NgModule decorator that allows you to define a modular structure for your Angular application. It declares a compilation context for the components in the application.
+159.What is dependency injection in Angular?
+         Dependency injection is a design pattern used to create instances of classes with their dependencies instead of hardcoding them within the class. Angular's DI framework provides dependencies to a class          when it's instantiated.
+160. How does Angular handle routing?
+         Angular's built-in router enables navigation from one view to the next as users perform application tasks. It also allows for deep linking to specific views within an application.
+
    (will be updated soon.....)
